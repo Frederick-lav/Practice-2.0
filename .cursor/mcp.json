@@ -5,7 +5,10 @@
       "command": "node",
       "args": [
         "${workspaceFolder}/mcp-server.js"
-      ]
+      ],
+      "env": {
+        "MCP_TOOLSET": "summary-v1"
+      }
     }
   }
 }
